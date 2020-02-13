@@ -9,7 +9,7 @@ namespace Bazaar.ApplicationServices
 
     public class UpdateTopBuyersCommand
     {
-        int Increment { get; set; }
+        int Score { get; set; }
     }
 
     public interface IUpdateTopBuyersCommandHandler
